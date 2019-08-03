@@ -3,7 +3,7 @@
 # dependencies
 /node_modules
 /.pnp
-/src/__sanpshots__
+/src/__snapshots__
 /src/serviceWorker.js
 .pnp.js
 
