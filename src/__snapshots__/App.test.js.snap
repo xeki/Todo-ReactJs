@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Functionality test suit matches snapshot 1`] = `
+<div>
+  <div
+    className="counters"
+  >
+    <div
+      className="counter-blocks"
+    >
+       Tasks: 
+      0
+       
+    </div>
+    <div
+      className="counter-blocks"
+    >
+       Unchecked Tasks: 
+      0
+       
+    </div>
+  </div>
+  <div
+    className="controls"
+  >
+    <div
+      className="control-block"
+    >
+      <input
+        id="task"
+        name="task"
+        placeholder="Task"
+        type="text"
+      />
+    </div>
+    <div
+      className="control-block"
+    >
+      <button
+        className="create-button"
+        name="submit"
+        onClick={[Function]}
+      >
+         Create Task 
+      </button>
+    </div>
+  </div>
+</div>
+`;

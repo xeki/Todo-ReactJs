@@ -1,33 +1,84 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  width: 600px;
+  margin: auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.counters {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 450px;
+  margin: 10px 0 20px 5px;
+}
+.counter-blocks {
+  flex: 1;
+  flex-basis: 200px;
+  text-align: center;
+}
+.controls{
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  flex-wrap: nowrap;
+  margin: 0 0 20px 5px;
+}
+.control-block{
+  flex: 1;
+  text-align: center;
+}
+
+li {
+  width: 450px;
+  display: flex;
+  margin: 5px;
+  flex-wrap: nowrap;
+  background: gray;
+  border-radius: 5px;
+  min-height: 40px;
+  vertical-align: middle;
+  line-height: 40px;
+}
+.list-checkbox{
+  flex: 1;
+  text-align: center;
+}
+.list-taskname{
+  flex: 2;
+  text-align: center;
+}
+.list-button{
+  flex: 1;
+  text-align: center;
+}
+
+.create-button, .create-button:hover {
+  background: navy;
+  border: 2px solid navy;
   color: white;
+  border-radius: 10px;
+  outline: none;
 }
-
-.App-link {
-  color: #61dafb;
+.create-button:focus {
+  outline: 1px solid #blue;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete-button {
+  color: white;
+  font-weight: 400;
+  background: red;
+  border-radius: 50%;
+  border: 2px solid red;
+}
+input[type='text']{
+  width: 200px;
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+input[type='text']:focus, input[type='text']:active{
+  outline: 1px solid blue;
+}
+* {
+  font-family: comic sans ms;
+  font-size: 16px;
 }

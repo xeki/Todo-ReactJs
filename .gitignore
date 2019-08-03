@@ -3,6 +3,8 @@
 # dependencies
 /node_modules
 /.pnp
+/src/__sanpshots__
+/src/serviceWorker.js
 .pnp.js
 
 # testing
